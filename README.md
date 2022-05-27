@@ -6,4 +6,4 @@ Credit to original creator wrenfairbank
 
 # Deploy to heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://telegra.ph/How-to-deploy-05-27)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://telegra.ph/How-to-deploy-05-27)
