@@ -1477,7 +1477,7 @@ async def get_buttons():
             [
                 [
                     InlineKeyboardButton(f"🎸 Start the Player", callback_data="restart"),
-                    InlineKeyboardButton('🗑 Close', callback_data='close'),
+                    InlineKeyboardButton('📛 Close', callback_data='close'),
                 ],
             ]
             )
@@ -1490,7 +1490,7 @@ async def get_buttons():
                 [
                     InlineKeyboardButton(f"⏯ {get_pause(Config.PAUSE)}", callback_data=f"{get_pause(Config.PAUSE)}"),
                     InlineKeyboardButton('🔊 Volume Control', callback_data='volume_main'),
-                    InlineKeyboardButton('🗑 Close', callback_data='close'),
+                    InlineKeyboardButton('📛 Close', callback_data='close'),
                 ],
             ]
             )
@@ -1512,7 +1512,7 @@ async def get_buttons():
                 ],
                 [
                     InlineKeyboardButton('🔊 Volume Control', callback_data='volume_main'),
-                    InlineKeyboardButton('🗑 Close', callback_data='close'),
+                    InlineKeyboardButton('📛 Close', callback_data='close'),
                 ]
             ]
             )
@@ -1528,11 +1528,11 @@ async def settings_panel():
             ],
             [
                 InlineKeyboardButton("🎞 Video", callback_data=f"info_video"),
-                InlineKeyboardButton(f"{'📺 Enabled' if Config.IS_VIDEO else '🎙 Disabled'}", callback_data='is_video'),
+                InlineKeyboardButton(f"{'📺 Enabled' if Config.IS_VIDEO else '🚫 Disabled'}", callback_data='is_video'),
             ],
             [
                 InlineKeyboardButton("🤴 Admin Only", callback_data=f"info_admin"),
-                InlineKeyboardButton(f"{'🔒 Enabled' if Config.ADMIN_ONLY else '🔓 Disabled'}", callback_data='admin_only'),
+                InlineKeyboardButton(f"{'🔒 Enabled' if Config.ADMIN_ONLY else '🚫 Disabled'}", callback_data='admin_only'),
             ],
             [
                 InlineKeyboardButton("🪶 Edit Title", callback_data=f"info_title"),
@@ -1547,7 +1547,7 @@ async def settings_panel():
                 InlineKeyboardButton(f"{'✅ Enabled' if Config.REPLY_PM else '🚫 Disabled'}", callback_data='reply_msg'),
             ],
             [
-                InlineKeyboardButton('🗑 Close', callback_data='close'),
+                InlineKeyboardButton('📛 Close', callback_data='close'),
             ]
             
         ]
@@ -1599,7 +1599,7 @@ async def volume_buttons():
         ],
         [
             InlineKeyboardButton(f"🔙 Back", callback_data='volume_back'),
-            InlineKeyboardButton('🗑 Close', callback_data='close'),
+            InlineKeyboardButton('📛 Close', callback_data='close'),
         ]
         ]
     )
