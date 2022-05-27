@@ -16,7 +16,7 @@ python3 sync.py -s 0AIU4c2frBFkHUk9PVA -d 0AMAisOn4ceBWUk9PVA -sp / -dp / -b 1 -
 python3 sync.py -s 0AMAisOn4ceBWUk9PVA -d 0AJ97CWc-QMK2Uk9PVA -sp / -dp / -b 1 -e 600 X2.1-2.2
 
 
-ပြင်ပြီးရင်
+After repair
 git add .
-git commit -m update sync.sh   (copy.py က code ကို  syn.py ထဲ ကူးပြီးသားမို့  sync.sh run ရုံပါပဲ copy လုပ်ပါလိမ့်မယ်)
+git commit -m update sync.sh   (copy.py has already copied the code into syn.py, so just run sync.sh and copy it)
 git push heroku main
