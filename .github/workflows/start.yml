@@ -1,13 +1,13 @@
-name: FcloneByGdriveTalk
+name: FcloneCMT-Masamba
 
 on:
   workflow_dispatch:
     inputs:
       Bot_id:
-        description: 'BotFatherမှToken'
+        description: 'Token @BotFather'
         required: true
       Owner_id:
-        description: 'Rose မှ Account id'
+        description: 'Account id @MissRose_bot'
         required: true
 
 jobs: 
