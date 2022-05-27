@@ -1,6 +1,6 @@
 # Super Fclone Bot
 
-Credit to original creator wrenfairbank
+Pea Masamba
 
 ## FcloneCMT-Klub-2022
 
